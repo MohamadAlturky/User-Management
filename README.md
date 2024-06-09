@@ -1,4 +1,4 @@
-# ASP.NET Core class library for user management
+﻿# ASP.NET Core class library for user management
 
 ## To do 
 
@@ -13,4 +13,4 @@
 
 
 > [!NOTE]
-> this work a small app for my fifth year project.
+> this works on dotnet v8 please change the packages if you want to work on another release.😉😉😉
