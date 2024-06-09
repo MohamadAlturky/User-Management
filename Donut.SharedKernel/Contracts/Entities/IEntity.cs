@@ -1,4 +1,4 @@
-﻿namespace Donut.SharedKernel.Contracts;
+﻿namespace Donut.SharedKernel.Contracts.Entities;
 
 public interface IEntity<KeyType>
 {
