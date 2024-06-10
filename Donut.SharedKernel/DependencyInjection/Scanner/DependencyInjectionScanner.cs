@@ -13,7 +13,8 @@ public static class DependencyInjectionScanner
         var installers = assemblies.SelectMany(assembly => assembly.DefinedTypes)
                   .Where(TypeChecker.IsAssignableToType<IDependencyInjectionInstaller>)
                   .Select(Activator.CreateInstance)
-                  .Cast<IDependencyInjectionInstaller>();
+                  .Cast<IDependencyInjectionInstaller>()
+                  .OrderBy(i => i.PriorityLevel);
 
         foreach (var installer in installers)
         {
