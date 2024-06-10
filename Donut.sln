@@ -3,15 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34607.119
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Donut.MemberShip.Core", "Donut.MemberShip.Core\Donut.MemberShip.Core.csproj", "{DBB1CE90-C7DD-4E47-AC79-E0560540868D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Donut.MemberShip.Core", "Donut.MemberShip.Core\Donut.MemberShip.Core.csproj", "{DBB1CE90-C7DD-4E47-AC79-E0560540868D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source Code", "Source Code", "{C3FB19BF-8ED6-4FC0-AE96-D25C03871508}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{2B71C99E-C67B-42A0-A6C5-E857E7CA6F96}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Donut.MemberShip.Notifications", "Donut.MemberShip.Notifications\Donut.MemberShip.Notifications.csproj", "{C808DCB4-30CF-4A3D-819F-A4F7DFC4E5DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Donut.MemberShip.Notifications", "Donut.MemberShip.Notifications\Donut.MemberShip.Notifications.csproj", "{C808DCB4-30CF-4A3D-819F-A4F7DFC4E5DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Donut.SharedKernel", "Donut.SharedKernel\Donut.SharedKernel.csproj", "{FA4B4EB0-34AB-4BAF-A277-E66B31F0625E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Donut.SharedKernel", "Donut.SharedKernel\Donut.SharedKernel.csproj", "{FA4B4EB0-34AB-4BAF-A277-E66B31F0625E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Donut.MemberShip.Authentication", "Donut.MemberShip.Authentication\Donut.MemberShip.Authentication.csproj", "{43917D14-BB19-43CE-BC40-4CD2AF84F751}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestingAPI", "TestingAPI\TestingAPI.csproj", "{5BD884AD-58C6-453A-86B8-30536532B745}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +35,14 @@ Global
 		{FA4B4EB0-34AB-4BAF-A277-E66B31F0625E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FA4B4EB0-34AB-4BAF-A277-E66B31F0625E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FA4B4EB0-34AB-4BAF-A277-E66B31F0625E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43917D14-BB19-43CE-BC40-4CD2AF84F751}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43917D14-BB19-43CE-BC40-4CD2AF84F751}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43917D14-BB19-43CE-BC40-4CD2AF84F751}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43917D14-BB19-43CE-BC40-4CD2AF84F751}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BD884AD-58C6-453A-86B8-30536532B745}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BD884AD-58C6-453A-86B8-30536532B745}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BD884AD-58C6-453A-86B8-30536532B745}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BD884AD-58C6-453A-86B8-30536532B745}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -39,6 +51,8 @@ Global
 		{DBB1CE90-C7DD-4E47-AC79-E0560540868D} = {C3FB19BF-8ED6-4FC0-AE96-D25C03871508}
 		{C808DCB4-30CF-4A3D-819F-A4F7DFC4E5DE} = {C3FB19BF-8ED6-4FC0-AE96-D25C03871508}
 		{FA4B4EB0-34AB-4BAF-A277-E66B31F0625E} = {C3FB19BF-8ED6-4FC0-AE96-D25C03871508}
+		{43917D14-BB19-43CE-BC40-4CD2AF84F751} = {C3FB19BF-8ED6-4FC0-AE96-D25C03871508}
+		{5BD884AD-58C6-453A-86B8-30536532B745} = {2B71C99E-C67B-42A0-A6C5-E857E7CA6F96}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D6C863EC-7150-493D-9824-BD33C10ECEA0}
